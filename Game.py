@@ -1,20 +1,20 @@
 import turtle
 import pygame
-
+# put GIF-file in 'your file'
 pygame.mixer.init()
-pygame.mixer.music.load('C:\\Users\\Aron\\Desktop\\bgsound.mp3')
+pygame.mixer.music.load('your file')
 pygame.mixer.music.play(-1)
 pygame.mixer.music.set_volume(0.5)
 
 screen = turtle.Screen()
 screen.title('Space Rider')
 screen.setup(900,650)
-image = "C:\\Users\\Aron\\Desktop\\Python\\spaceship_gif.gif"
+image = "your file"
 
 screen.addshape(image)
 turtle.shape(image)
 
-screen.bgpic('C:\\Users\\Aron\\Desktop\\Python\\space_gif.gif')
+screen.bgpic('your file')
 
 
 def k1():
